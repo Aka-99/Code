@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE</title>
+  </head>
+  <body>
+    <!-- different tags -->
+    <!-- table row
+    <tr></tr> 
+    table head
+    <th></th>
+    table data
+    <td></td>
+    table heading
+    <thead></thead>
+    table body
+    <tbody></tbody> -->
+
+    <table>
+      <thead>
+        No 111
+      </thead>
+      <thead>
+        no222
+      </thead>
+      <thead>
+        no333
+      </thead>
+      implement table row first row
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+      second row
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+      <h1>Example</h1>
+      <table border="1">
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+        first row
+        <tr>
+          <td>xyz</td>
+          <td>22</td>
+          <td>india</td>
+        </tr>
+        second row
+        <tr>
+          <td>ABC</td>
+          <td>44</td>
+          <td>uk</td>
+        </tr>
+        third row
+        <tr>
+          <td>Aman</td>
+          <td>50</td>
+          <td>uk</td>
+        </tr>
+      </table>
+
+      <!-- Attributes
+1. colspan
+2. rowspan
+3. headers -->
+
+      <h1>colspan</h1>
+      <table border="1">
+        <tr>
+          <th colspan="2">Header Line</th>
+        </tr>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+        </tr>
+        <tr>
+          <td colspan="2">Footer</td>
+        </tr>
+      </table>
+
+      <h1>rowspan</h1>
+      <table border="1">
+        <tr>
+          <th rowspan="4">sideheading</th>
+          <th>col 1</th>
+          <th>col 2</th>
+          <th>col 3</th>
+        </tr>
+        <tr>
+          <td>row1,col 1</td>
+          <td>row 1,col 2</td>
+          <td>row 1,col 3</td>
+        </tr>
+        <tr>
+          <td>row1,col 1</td>
+          <td>row 1,col 2</td>
+          <td>row 1,col 3</td>
+        </tr>
+        <tr>
+          <td>row1,col 1</td>
+          <td>row 1,col 2</td>
+          <td>row 1,col 3</td>
+        </tr>
+      </table>
+
+      <h1>tbody</h1>
+
+      <table border="8">
+        <thead>
+          <tr>
+            <th>head 1</th>
+            <th>head 2</th>
+            <th>head 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>row1, col1</td>
+            <td>row1, col2</td>
+            <td>row1, col3</td>
+          </tr>
+          <tr>
+            <td>row2, col1</td>
+            <td>row2, col2</td>
+            <td>row2, col3</td>
+          </tr>
+        </tbody>
+      </table>
+    </table>
+  </body>
+</html>
