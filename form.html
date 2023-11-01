@@ -6,16 +6,86 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>HTML Forms</h2>
+    <!-- Base elements
+    1.form tag
+    2.input tag [attributes type, name, value, placeholder]
+    3.text <input>
+    4.label
+    5.radio button
+    6.checkbox
+    7.<input name="">
+    8.submit button -->
 
-<form action="/action_page.php" method="post">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="password" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    <h1>Form tag</h1>
+    <form>
+        <h1>input tag</h1>
+        <h4>name=aaaaaa</h4>
+        <label>Name</label>
+        <input type="text" name="name" value="" required><br><br>
+        <!-- password -->
+        <label>Password</label>
+        <input type="password" name=""><br><br>
+        <!-- email -->
+        <label>E-mail</label>
+        <input type="email" name="">
+        <!-- submit -->
+        <input type="submit"><br><br>
+
+        <!-- placeholder on input field -->
+        <!-- <label>Placeholder Example</label> -->
+        <input type="" name="" placeholder="name"><br><br>
+
+
+        <!-- radio button implementation -->
+        <h1>Radio buttons</h1>
+<div>
+    <label> html5</label>
+    <input type="radio" name="" value=""><br><br>
+</div>
+        
+<div>
+    <label> css3</label>
+    <input type="radio" name="" value=""><br><br>
+</div>
+        
+<div>
+    <label>javascript</label>
+    <input type="radio" name="" value="">
+</div>
+       
+
+<h1>checkbox</h1>
+<div>
+    <label>interviews session</label>
+    <input type="checkbox" name="" value="">
+</div>
+<div>
+    <label>live session</label>
+    <input type="checkbox" value="" name="">
+</div>
+<div>
+    <label>session recording</label>
+    <input type="checkbox" value="" name="">
+</div>
+
+
+<div>
+    <label>resume</label>
+    <input type="file" value="" name="">
+</div>
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+    
 </body>
 </html>
