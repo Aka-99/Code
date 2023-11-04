@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        /* CSS styles */
+        body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+        /* header */
+        .head_element1 {
+            font-size: 15px;
+            color: blue;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .head_element2 {
+            font-size: 20px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* nav */
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: blue;
+            padding: 10px 0px;
+            color: white;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .menu-log {
+            float: right;
+        }
+
+        /* section */
+        .body_sec {
+            margin-left: 20px;
+        }
+
+        /* aside */
+        article {
+            width: 50%;
+            padding: 10px;
+            float: left;
+        }
+
+        aside {
+            width: 40%;
+            float: right;
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            margin: 18px;
+            height: 100px;
+        }
+
+        /* footer */
+        footer {
+            width: 100%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-top: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div class="head_element1">Hello World</div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Menu Navigation Bar -->
+    <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#news">About Me</a>
+        <a href="#notification">Contact Me</a>
+        <div class="menu-log">
+            <a href="login">Login / SignIn</a>
+        </div>
+    </nav>
+    <!-- Menu Navigation Bar Ends-->
+
+    <!-- section starts -->
+    <main class="body_sec">
+        <section id="Content">
+            <h3>Content section</h3>
+        </section>
+        <!-- section ends -->
+
+        <!-- aside starts -->
+        <!-- We are dividing HTML body in two segments (Article Segment & Index Segment)-->
+        <h1>In this example, we are using aside tag for displaying index:</h1>
+        <article>
+            <!-- article tag consists the article... (Yes I know that tag name itself defines self!!) -->
+            <h3>Why we use Aside tag?</h3>
+            <p>Aside tag simply creates a section or division, and it only contains the content that is related to the main web page. We mainly use it as a highlight block in our website to showcase the highlighted or important content.</p>
+        </article>
+        <aside>
+            <!-- We are using aside tag for highlighting the index content of the article -->
+            <h1>Index:</h1>
+            <p>Why we use Aside tag?</p>
+        </aside>
+        <!-- aside ends -->
+
+        <!-- footer starts -->
+        <footer>Footer Section</footer>
+        <!-- footer ends -->
+    </main>
+</body>
+
+</html>
