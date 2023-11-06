@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <form id="form1">
+  <!-- <form id="form1">
     <fieldset form="">
       <legend>User Information</legend>
       <label for="username">Username:</label>
@@ -32,12 +32,16 @@
       <br>
       <button type="submit">Submit</button>
     </fieldset>
-  </form>
+  </form> -->
 
 
-
-
-
+  <h2>implement of output tag</h2>
+       <form oninput="sumresult.value = parseInt(A.value)+parseInt(B.value)">
+        <input type="number" name="A" value="20">+
+        <input type="range" name="B" value="0">+
+        <br>
+        Result: <output name="sumresult"></output>
+       </form>
 
 </body>
 

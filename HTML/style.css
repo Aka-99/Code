@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    }
+    h1, h2 {
+    color: gray;
+    }
+    h1 {
+    border-bottom: 1px solid black;
+    }
+    
+   .hundai p{
+    color: red;
+    
+    }
+    .hundai {
+        border: 1px solid green; /* This sets a black border with a width of 1px */
+       
+    }
+    .audi{
+        border: 1px solid rgb(37, 37, 11);
+    }
+    .hundai h2{
+        border-bottom: 1px solid red;
+    }
