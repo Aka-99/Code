@@ -1,0 +1,31 @@
+/* .product-parent > .product-child{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+.product-parent > .product-child img{
+    width: 100%;
+    border: 1px solid purple;
+} */
+
+/* h2 + .first{
+    font-size: 24px;
+    color: aqua;
+} */
+/* 
+h2 + .audi{
+    border: 1px solid red;
+}
+h2 + .mustang{
+    border: 1px solid chartreuse;
+} */
+
+/* h2 ~ p{
+    font-size:18px ;
+    color: blue;
+} */
+
+h2 ~ p{
+    font-size:18px ;
+    color: blue;
+}
