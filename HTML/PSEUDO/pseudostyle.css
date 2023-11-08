@@ -1,0 +1,54 @@
+/* *{
+    background-color: red;
+} */
+
+/* .nav-link:hover{
+    color: green;
+}
+a:active{
+    color: red;
+} */
+/* a:hover{
+    color:yellow;
+}
+/* form button{ */
+    background-color: blue;
+    color:white
+}
+
+form:active{
+    color: red;
+} 
+
+/* p:first-child{
+    color: yellow;
+    background-color: black;
+} */
+
+/* .focus:focus{
+    background-color: yellow;
+    color: red;
+} */
+
+
+/* input:required{
+ border: 2px solid red;
+} */
+
+/* a{
+    background-color: white;
+    border: 1px solid white;
+}
+a:visited{
+    background-color: yellow;
+    border: red;
+    color: black;
+} */
+
+/* a:hover{
+    background-color: rgb(106, 159, 167);
+    transition: background-color 0.5s;
+} */
+
+
+
