@@ -1,0 +1,65 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.ullist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+  float: left; 
+}
+a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 5s;
+}
+
+/* Pseudo classes */
+
+/* hover */
+a:hover{
+    background-color: #555;
+}
+
+/* :active */
+
+a:active{
+    background-color:aqua;
+}
+
+/* :focus */
+a:focus{
+    outline :2px solid #fff;
+    outline-offset: 4px;
+    background-color: #444;
+}
+
+/* :visited */
+
+a:visited{
+    color: red;
+}
+/* it count start  from top-bottom  */
+
+li:nth-child(6){
+    border: 2px solid blue;
+    margin-bottom: 1px;
+}
+it count start  from bottom-top 
+li:nth-last-child(4){
+    border: 2px solid rgb(0, 255, 94);
+    margin-bottom: 1px;
+}
+
+
+
+
+

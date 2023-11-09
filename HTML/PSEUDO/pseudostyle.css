@@ -11,14 +11,14 @@ a:active{
 /* a:hover{
     color:yellow;
 }
-/* form button{ */
+/* form button{ 
     background-color: blue;
     color:white
 }
 
-form:active{
+/* form:active{
     color: red;
-} 
+}  */
 
 /* p:first-child{
     color: yellow;
@@ -35,7 +35,7 @@ form:active{
  border: 2px solid red;
 } */
 
-/* a{
+a{
     background-color: white;
     border: 1px solid white;
 }
@@ -43,7 +43,7 @@ a:visited{
     background-color: yellow;
     border: red;
     color: black;
-} */
+} 
 
 /* a:hover{
     background-color: rgb(106, 159, 167);
