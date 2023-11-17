@@ -1,27 +1,27 @@
 *{
     background-color: aqua;
 }
-/* .william::after{
+.william::after{
     content: "-William Shakespeare.";
     color: red;
     font-size: 10px;
     padding: 5px 3px;
     border: 2px dashed #000;
     margin-left: 5px;
-} */
+}
 
-/* #bond::after{
+#bond::after{
     content: "- jemes bond ";
 
-} */
+}
 
-/* 
+
 p::before{
     content: "-William Shakespeare.";
     color: red;
-} */
+}
 
-/* .article-list{
+.article-list{
     list-style:none;
 }
 
@@ -29,7 +29,7 @@ p::before{
 font-family: "Font Awesome 5 Free";
 content: "\f15b";
 
-} */
+}
 
 p::first-letter{
     color: red;
