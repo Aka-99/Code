@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision</title>
+    <link type="text/css" rel="stylesheet" href="./rev.css">
+    <script src="https://kit.fontawesome.com/63bdc335c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <i class="fa-solid fa-house"></i>
+
+    <h1>this is h1</h1>
+    <h2>this is h2</h2>
+    <h3>this is h3</h3>
+    <h4>this is h4</h4>
+    <h5>this is h5</h5>
+    <h6>this is h6</h6>
+
+
+
+    <p>Thiis is <strong>paragraph</strong> first
+
+        H<sub>2</sub>o
+        H<sup>2</sup>o
+
+
+        <em>Lorem ipsum</em>, dolor sit amet consectetur adipisicing elit. Tempore dolorum rem iste deserunt inventore
+        quibusdam error consequatur, corporis impedit possimus soluta minus officia. Dolor dolorem ab dolorum quidem
+        eligendi eius?
+    </p>
+
+    <!--comment tag everything will be comment-->
+
+
+    <a
+        href="https://www.amazon.in/ASUS-VivoBook-Intel%C2%AECoreTM-i3-1215U-X1502ZA-EJ322WS/dp/B0BTVMBLZC/?_encoding=UTF8&pd_rd_w=ILa2V&content-id=amzn1.sym.aff93425-4e25-4d86-babd-0fa9faf7ca5d%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=aff93425-4e25-4d86-babd-0fa9faf7ca5d&pf_rd_r=M8YBHX6MSJ4Y8KFABCQ7&pd_rd_wg=36OxZ&pd_rd_r=c97ee443-65f3-45d3-acf9-60efa9079db3&ref_=pd_gw_ci_mcx_mr_hp_atf_m">Click
+        Here For Apply for this post</a>
+
+    <figure>
+        <img src="./audi.jpeg" alt="provide alternate name of  audi car image">
+    </figure>
+
+    <figure>
+        <img style="height: 50px; width: 50px;" src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg"
+            alt="this is second online image">
+        <figcaption>
+            <a href="https://pixabay.com/images/search/flowers/">click here for more flower images.</a>
+        </figcaption>
+    </figure>
+
+
+    <figure>
+        <img style="height: 70px; width: 70px;" src="./flower.jpg" alt="butterfly on flower">
+        <figcaption>butterfly on flower</figcaption>
+    </figure>
+
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>SR No.</th>
+                    <th>Name of Students</th>
+                </tr>
+            </thead>
+
+            <!-- first data -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ashish</td>
+                </tr>
+                <!-- second data -->
+                <tr>
+                    <td>2</td>
+                    <td>Sachin</td>
+                </tr>
+                <footer>
+                    <td colspan="2">student data</td>
+                </footer>
+            </tbody>
+
+        </table>
+    </div>
+
+    <!-- list -->
+    <div>
+        <!-- ordered list -->
+        <ol start="30">
+            <li>apply</li>
+            <li>banana</li>
+            <li>lichi</li>
+        </ol>
+
+        <!-- unordered list -->
+
+        <ul type="disc">
+            <li>apple</li>
+            <li>banana</li>
+            <li>lichi</li>
+
+        </ul>
+
+        <!-- nested list -->
+
+        <ol>
+            <h2>Nested list</h2>
+            <li>Animal</li>
+            <ul>
+                <li>Dog</li>
+                <li>Tiger</li>
+                <li>monkey</li>
+            </ul>
+            <li>Fruits</li>
+            <ul>
+                <li>banana</li>
+                <li>mango</li>
+                <li>apple</li>
+
+            </ul>
+
+            <li>Flowers</li>
+            <ol>
+                <li>Rose</li>
+                <li>Mogra</li>
+                <li>Lotus</li>
+
+            </ol>
+        </ol>
+        <!-- Descriptive list -->
+
+        <dl>
+            <!-- dt => define term -->
+            <dt> Flower</dt>
+            <!-- dd => specifies each term -->
+            <dd>Flowers are symbolic of <span class="span">beauty</span>, love and tranquillity.
+                They form the soul of a garden and convey the message of
+                nature to man. Flowers and <span class="span">objects of aesthetic</span>objects of aesthetic,
+                ornamental, social, religious and cultural value.
+                They are used for conveying love, happiness, grief,
+                mourning etc.</dd>
+
+            <dt>Animals</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, delectus ratione esse reiciendis
+                accusantium nisi aperiam error sed ut inventore praesentium quos sit tempore. Fuga molestias earum esse
+                repellendus voluptates?</dd>
+        </dl>
+
+
+        <!-- Audio -->
+        <audio controls>
+            <source src="./audio/song1.mp3" type="audio/mp3">
+            <source src="./audio/whistle-vibes-172471.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- video -->
+        <video style="height: 170px; width: 170px;" controls loop poster="./audi.jpeg">
+            <source src="./audio/video1.mp4" type="video/mp4">
+        </video>
+
+        <!-- Form -->
+        <div>
+            <form>
+                <h1>This is regestration form.</h1>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass">
+                </div>
+                <div>
+                    <label for="Add">Address</label>
+                   <textarea rows="10" cols="10" name="Add"></textarea>
+                </div>
+
+
+                <!-- radio button -->
+                <label>gender</label>
+                <div>
+                    <input type="radio" name="radio-button">
+                    <label>male</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="radio-button">
+                    <label>female</label>
+                </div>
+
+                <!-- checkbox -->
+                <label>Checkbox</label>
+
+                <div>
+                    <input type="checkbox" name="checkbox-button">
+                    <label>html</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox-button">
+                    <label name="checkbox-button">css</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="checkbox-button">
+                    <label name="checkbox-button">css</label>
+                </div>
+
+
+
+                <label for="Ncars">cars</label>
+                <select name="Ncars">
+                    <option value="hundai">Huidai</option>
+                    <option value="Tata">Tata</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="lambo">lambo</option>
+            </select>
+
+                <input type="submit" value="Submit">
+
+            </form>
+            <div>
+
+                <p>this is thre difference between <p class="span">span</p> and div</p>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
