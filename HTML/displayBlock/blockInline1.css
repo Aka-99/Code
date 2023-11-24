@@ -1,7 +1,7 @@
 *{
     /* background-color: aqua; */
 }
-h2,h1,p{
+/* h2,h1,p{
     height:auto ;
     width: auto;
     padding: 20px;
@@ -11,7 +11,7 @@ h2,h1,p{
     color: #000;
 }
 
-/* a{
+ a{
     height:700px;
     width:700px;
     padding:30px;
@@ -23,12 +23,12 @@ h2,h1,p{
     margin:30px ;
     background-color:red;
     color:white ;
-} */
+}
 
 button{
     height:200px;
     width:200px;
-    /* padding:30px; */
+    padding:30px;
     padding-left:20px ;
     padding-top: 30px;
     padding-right:20px ;
@@ -63,5 +63,20 @@ img{
     color: red;
 }
 img,button{
-    /* display: block; */
+    display: block;
+} */
+
+.pricing-table{
+    width: 50%;
+    display: table;
+}
+
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
 }
