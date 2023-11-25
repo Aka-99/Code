@@ -1,0 +1,199 @@
+*{
+    /* background-color: aqua; */
+    margin: 0px;
+    /* color: rgb(0, 255, 191); */
+    padding: 5px;
+}
+/* Span{
+    background-color: black;
+    color: white;
+} */
+/* Em{
+    color: blue;
+}
+Strong{
+    color: red;
+} */
+/* h1{
+text-align: center;
+}
+p{
+text-align: center;
+} */
+
+/* .Class{
+    background-color: azure;
+}
+span.TargetSpecific{
+    background-color: blue;
+}
+.TargetSpecific{
+    color: pink;
+}
+
+#idselector{
+    color: brown;
+}
+
+li{
+    font-size: 40%;
+}
+li[Class="a"]{
+   background-color: red;
+}
+li[class="a b"]{
+ color: blue;
+}
+
+li[class~="a"]{
+    color: chartreuse;
+}
+
+input[type="text"]{
+    border: 10px solid purple;
+}
+
+[src="./mustang.jpeg"]{
+    width: 100px;
+    height: auto;
+    border: 2px solid pink;
+} */
+
+/* .first{
+    font-size: 0%;
+    font-weight: bold;
+} */
+/* article p:first-child{
+    font-size: 150%;
+    font-weight: bold;
+} */
+
+/* article{
+    color: red;
+} */
+
+/* p{
+    color: pink;
+} */
+ /* article p:first-child{
+    color: blue;
+ } */
+
+ /* article p:last-child{
+    font-weight: bolder;
+    color: black;
+ } */
+
+/* a:hover{
+    color: rgb(249, 242, 242);
+    font-weight: bold;
+    background-color: blue;
+} */
+/* a:visited{
+    color: hotpink;
+} */
+
+/* article p::first-line{
+    font-size: 120%;
+    font-weight: bold;
+} */
+/* article p::first-letter{
+    font-weight:100;
+    font-size: 200px; 
+   
+} */
+
+/* article p:first-child::first-line{
+    background-color: red;
+    font-size: 120%;
+    font-weight: bold;
+} */
+/* .box::after{
+    content: "after content ";
+    color: red;
+    font-size: 15px;
+}
+
+.box::before{
+    content: "#";
+    color: blue;
+} */
+/* .box p{
+    color: hotpink;
+}
+ul > li{
+    border-top: 5px solid red;
+} */
+
+/* h1 + p{
+    color: red;
+    font-weight: bold;
+    background-color: aqua;
+    padding: 3px;
+} */
+
+/* h1 ~ p{
+    color: brown;
+} */
+/* .box1{
+border: 5px solid red;
+padding: 19px;
+margin: 20px;
+margin-top:100px ;
+margin-bottom:100px ;
+margin-left: 50px;
+margin-right:50px ;
+}
+.box2{
+  box-sizing: border-box;
+  border: 5px solid red;
+  padding: 19px;
+margin: 20px;
+margin-top:100px ;
+margin-bottom:100px ;
+margin-left: 50px;
+margin-right:50px ;
+
+} */
+/* ul{
+   list-style: none; 
+    background-color: red;
+    
+}
+li{
+   display: inline;
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+} */
+
+.a{
+    height: 200px;
+    width: 250px;
+    color: white;
+    background-image: url(./mustang.jpeg);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: hotpink;
+}
+.b{
+ background-image: url();
+}
+p{
+    font-weight: bold;
+}
+button{
+    background-color: aqua;
+    color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
