@@ -1,8 +1,12 @@
 *{
     /* background-color: aqua; */
-    margin: 0px;
+   
     /* color: rgb(0, 255, 191); */
-    padding: 5px;
+    margin: 0px;
+    background-color: red;
+}
+body{
+    margin: 0px;
 }
 /* Span{
     background-color: black;
@@ -196,4 +200,7 @@ button{
 button:hover{
     background-color: black;
     color: white;
+}
+.bg-color{
+    background-color: yellow;
 }
