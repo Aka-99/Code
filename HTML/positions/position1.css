@@ -1,73 +1,68 @@
-*{
-    /* background-color: aqua; */
-   
+
+.container {
+  border: 1px solid red;
+  height: 700px;
+  width: 500px;
+  background-color: gray;
+  margin: 200px;
+  /* margin-left: 200px;   */
+  /* position: relative; */
 }
-.container{
-    height: 700px;
-    width: 500px;
-    /* background-color: gray; */
-    margin: 200px;
-    margin-left: 200px;  
-    /* position: absolute;   */
+.static {
+    /* left: 50px; */
+    /* right: 50px; */
+    top: 50px;
+   background-color: brown; 
+  background-color: rgba(0, 128, 0, 1);
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
 }
-.static{
-    
-    /* position: relative; */
-    
-    left: 150px;
-    /* background-color: brown; */
-    background-color: rgba(0, 128, 0, 1);
-    color: aliceblue;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
+
+.fixed {
+  position: fixed;
+  z-index: 1;
+  top: 400px;
+  left: 490px;
+  right: 500px; 
+  background-color: rgb(151, 165, 42);
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
 }
 .relative{
-    position: relative;
-    right: 140px;
-    /* top: 50px; */
-    bottom: 160px;
-
-    background-color: rgb(42, 77, 165);
-    color: aliceblue;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
+    top: 0px;
+    right: 0px;
+  background-color: rgb(42, 77, 165);
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
 }
-.fixed{
-   position: fixed;
-   z-index: 1;
-   top: 400px;
-   left:490px;
-   /* right: 500px; */
-    background-color: rgb(151, 165, 42);
-    color: aliceblue;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
+.absolute {
+  position: absolute;
+  /* bottom: 190px; */
+  /* right: 110px; */
+  left: 150px;
+  background-color: rgb(42, 165, 61);
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
 }
-.absolute{
-    position: absolute;
-    top: 250px;
-    left: 140px;
-    background-color: rgb(42, 165, 61);
-    color: aliceblue;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
+.sticky {
+  z-index: 2;
+  position: sticky;
+  top: 30px;
+  left: 400px;
+  background-color: rgb(165, 42, 136);
+  color: aliceblue;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
 }
-.sticky{
-    z-index: 2;
-    position: sticky;
-    top: 30px;
-    left: 400px;
-    background-color: rgb(165, 42, 136);
-    color: aliceblue;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
-}
-
 
 .space{
     height: 700px;

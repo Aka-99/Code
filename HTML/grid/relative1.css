@@ -1,0 +1,27 @@
+.container{
+    height:500px ;
+    width: 500px;
+    font-size: 40px;
+    background-color: rgb(246, 246, 11);
+    margin: 90px;
+    position: relative;
+}
+.relative{
+    height: 100px;
+    width:150px ;
+    background-color: aqua;
+    position: relative;
+    right: 100px;
+    /* top: 10px; */
+    bottom: 100px;
+    /* left: 50px; */
+}
+.absolute{
+    height: 100px;
+    width:150px ;
+    background-color: rgb(242, 0, 255);
+    position: absolute;
+    right: 0px;
+    /* left: 100px; */
+    top: 0px;
+}

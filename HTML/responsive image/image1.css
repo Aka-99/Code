@@ -1,0 +1,36 @@
+img{
+     /* absolute value  */
+     /* margin: 0px;
+     padding: 0px;
+    width: 500px; */
+    /* max-width: 100%; */
+    /* width: 30%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;  */
+} 
+/* body{
+    font-size: 20px;
+} */
+/* img{
+     relative value 
+    width: 100%;
+} */
+/* @media(max-width: 480px) {
+    img{
+        width:100%
+    }
+    
+} */
+
+/* p{
+    font-size: 10rem;
+} */
+.section{
+font-size: 20px;
+border: 2px solid red;
+
+}
+p{
+    margin-top: 8em;
+}
