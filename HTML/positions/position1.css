@@ -11,6 +11,7 @@
     /* position: absolute;   */
 }
 .static{
+    
     /* position: relative; */
     
     left: 150px;
@@ -35,8 +36,9 @@
 }
 .fixed{
    position: fixed;
-   top: 0px;
-   left:500px;
+   z-index: 1;
+   top: 400px;
+   left:490px;
    /* right: 500px; */
     background-color: rgb(151, 165, 42);
     color: aliceblue;
@@ -46,7 +48,7 @@
 }
 .absolute{
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 140px;
     background-color: rgb(42, 165, 61);
     color: aliceblue;
@@ -55,6 +57,7 @@
     width: 100px;
 }
 .sticky{
+    z-index: 2;
     position: sticky;
     top: 30px;
     left: 400px;
