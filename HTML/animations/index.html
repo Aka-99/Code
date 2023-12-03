@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animation - Horizontal Movement</title>
+    <style>
+        @keyframes moveCar {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: 80%; /* You can adjust the destination position as needed */
+            }
+        }
+
+        .car {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            background-color: #3498db; /* Car color */
+            left: 0; /* Initial position */
+            top: 50%; /* Center vertically */
+            transform: translate(0, -80%);
+            animation: moveCar 5s linear infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="car">Car</div>
+</body>
+</html>
